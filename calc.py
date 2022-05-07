@@ -2,6 +2,7 @@ from tkinter import *
 from decimal import *
 
 root = Tk()
+# Заголовок
 root.title('Калькулятор')
 
 buttons = (('7', '8', '9', '/', '4'),
