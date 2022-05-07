@@ -59,6 +59,7 @@ def click(text):
                 stack.append(text)
                 activeStr = ''
                 label.configure(text='0')
+# Надпись
 label = Label(root, text='0', width=35)
 label.grid(row=0, column=0, columnspan=4, sticky="nsew")
 button = Button(root, text='CE', command=lambda text='CE': click(text))
