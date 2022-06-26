@@ -5,6 +5,7 @@ root = Tk()
 # Заголовок
 root.title('Калькулятор')
 
+# Массив с кнопками
 buttons = (('7', '8', '9', '/', '4'),
            ('4', '5', '6', '*', '4'),
            ('1', '2', '3', '-', '4'),
@@ -13,6 +14,7 @@ buttons = (('7', '8', '9', '/', '4'),
 
 activeStr = ''
 stack = []
+# Вычисление результата
 def calculate():
     global stack
     global label
@@ -30,6 +32,7 @@ def calculate():
     if operation == '*':
         result = operand1 * operand2
     label.configure(text=str(result))
+# Клик по кнопке
 def click(text):
     global activeStr
     global stack
