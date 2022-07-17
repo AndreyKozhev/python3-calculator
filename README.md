@@ -4,4 +4,4 @@
 + Python 3
 ## Сборка
 + Склонируйте репозиторий: ```git clone https://github.com/AndreyKozhev/python3-calculator```
-+ Запустите файл
++ Запустите файл `calc.py`
